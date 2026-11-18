@@ -1,0 +1,29 @@
+[
+  {
+    "provider": "Anthropic", "family": "Claude", "accent": "#ffac89",
+    "models": [
+      ["Fable 5.2", "Epic myth", "Complex reasoning and code", [5,5,3,4,2]],
+      ["Opus 5.5", "Symphony", "Demanding coding tasks", [5,5,3,4,3]],
+      ["Sonnet 5.5", "Poem", "Balanced everyday coding", [4,4,4,4,3]],
+      ["Haiku 5.5", "Quick verse", "Fast, lightweight requests", [2,3,5,2,5]]
+    ]
+  },
+  {
+    "provider": "OpenAI", "family": "GPT", "accent": "#72dfd2",
+    "models": [
+      ["GPT-6 Astra", "Stars / frontier", "Complex multimodal work", [5,5,4,5,2]],
+      ["GPT-6.1 Sol", "Sun / workhorse", "Reasoning at speed", [5,4,5,3,3]],
+      ["GPT-6.1 Terra", "Earth / practical", "Everyday multimodal tasks", [3,3,4,4,4]],
+      ["GPT-6 Luna", "Moon / light", "Quick, low-cost responses", [2,2,5,2,5]]
+    ]
+  },
+  {
+    "provider": "Google", "family": "Gemini", "accent": "#c1a8ff",
+    "models": [
+      ["Gemini 4 Carbon", "Heavy agent", "Demanding agent tasks", [5,5,4,5,2]],
+      ["Gemini 4 Argon", "Advanced", "Fast, multi-step reasoning", [4,4,4,3,3]],
+      ["Gemini 4 Hydrogen", "Everyday", "High-volume general use", [3,3,5,3,4]],
+      ["Gemini Flash Lite", "3.8 / 3.5", "Low-latency requests", [2,2,5,2,5]]
+    ]
+  }
+]
