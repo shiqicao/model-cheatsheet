@@ -1,0 +1,222 @@
+{
+  "retrieved": "2026-11-18",
+  "artificialAnalysis": {
+    "source": "https://artificialanalysis.ai/leaderboards/models",
+    "rows": [
+      {
+        "model": "Fable 5.2",
+        "effort": "max, default fallback",
+        "index": 65,
+        "costUsdPerTask": 26.54,
+        "minutesPerTask": 41.3
+      },
+      {
+        "model": "GPT-6.2 Astra",
+        "effort": "max",
+        "index": 62,
+        "costUsdPerTask": 4,
+        "minutesPerTask": 13.4
+      },
+      {
+        "model": "Gemini 4 Carbon",
+        "effort": "high",
+        "index": 60,
+        "costUsdPerTask": 7.76,
+        "minutesPerTask": 36
+      },
+      {
+        "model": "Opus 5.5",
+        "effort": "max, default fallback",
+        "index": 59,
+        "costUsdPerTask": 10.04,
+        "minutesPerTask": 24.6
+      },
+      {
+        "model": "GPT-6.2 Sol",
+        "effort": "max",
+        "index": 57,
+        "costUsdPerTask": 1.01,
+        "minutesPerTask": 8.4
+      },
+      {
+        "model": "Sonnet 5.5",
+        "effort": "max, default fallback",
+        "index": 55,
+        "costUsdPerTask": 10.02,
+        "minutesPerTask": 32.2
+      },
+      {
+        "model": "Gemini 4 Hydrogen",
+        "effort": "xhigh",
+        "index": 54,
+        "costUsdPerTask": 3.16,
+        "minutesPerTask": 15.2
+      },
+      {
+        "model": "GPT-6.1 Terra",
+        "effort": "max",
+        "index": 51,
+        "costUsdPerTask": 0.96,
+        "minutesPerTask": 14.7
+      },
+      {
+        "model": "Gemini 4 Argon",
+        "effort": "high",
+        "index": 50,
+        "costUsdPerTask": 4.97,
+        "minutesPerTask": 29.7
+      },
+      {
+        "model": "Haiku 5.5",
+        "effort": "max",
+        "index": 36,
+        "costUsdPerTask": 0.41,
+        "minutesPerTask": 14.8
+      }
+    ]
+  },
+  "terminalBench40": {
+    "source": "https://www.tbench.ai/?version=4.0",
+    "rows": [
+      {
+        "id": "7b805dbb-e77a-4d0a-892e-165f922f786c",
+        "model": "Opus 5.5",
+        "agent": "Claude Code",
+        "effort": "max",
+        "trials": 330,
+        "successes": 214,
+        "accuracy": "64.8% ± 3.1%"
+      },
+      {
+        "id": "723c6609-fe18-46d9-a1a3-dd4b6b0e0d00",
+        "model": "Sonnet 5.5",
+        "agent": "Claude Code",
+        "effort": "max",
+        "trials": 330,
+        "successes": 204,
+        "accuracy": "61.8% ± 2.9%"
+      },
+      {
+        "id": "5c537be4-7fc3-449b-8bfc-ceb9061c2535",
+        "model": "GPT-6 Astra",
+        "agent": "Codex",
+        "effort": "max",
+        "trials": 330,
+        "successes": 192,
+        "accuracy": "58.2% ± 2.8%"
+      },
+      {
+        "id": "79aafc20-6776-4411-a5a5-0640562496d0",
+        "model": "GPT-6.1 Sol",
+        "agent": "Codex",
+        "effort": "max",
+        "trials": 330,
+        "successes": 192,
+        "accuracy": "58.2% ± 3.1%"
+      },
+      {
+        "id": "16db8ad5-84aa-4588-b660-1ce68c0d45e2",
+        "model": "GPT-6 Astra",
+        "agent": "Codex",
+        "effort": "xhigh",
+        "trials": 330,
+        "successes": 191,
+        "accuracy": "57.9% ± 2.7%"
+      },
+      {
+        "id": "3475050c-bf5e-4261-a3f6-0af5350af13f",
+        "model": "GPT-6 Astra",
+        "agent": "Codex",
+        "effort": "high",
+        "trials": 330,
+        "successes": 191,
+        "accuracy": "57.9% ± 3.0%"
+      },
+      {
+        "id": "7a2dc127-6335-4edd-a98a-9b440a15eeb7",
+        "model": "Gemini 4 Argon",
+        "agent": "Antigravity CLI",
+        "effort": "high",
+        "trials": 330,
+        "successes": 181,
+        "accuracy": "54.8% ± 3.0%"
+      },
+      {
+        "id": "f3c3d5a6-6424-4acb-bfcc-615c3f79f6dd",
+        "model": "GPT-6 Astra",
+        "agent": "Codex",
+        "effort": "medium",
+        "trials": 330,
+        "successes": 179,
+        "accuracy": "54.2% ± 2.7%"
+      },
+      {
+        "id": "d275cb03-4da6-4e6d-9429-d2d7d3ab151f",
+        "model": "GPT-6.1 Terra",
+        "agent": "Codex",
+        "effort": "max",
+        "trials": 330,
+        "successes": 171,
+        "accuracy": "51.8% ± 2.8%"
+      },
+      {
+        "id": "b3ad58f3-b311-4d4d-875b-3158cf0309d6",
+        "model": "GPT-6 Astra",
+        "agent": "Codex",
+        "effort": "low",
+        "trials": 330,
+        "successes": 167,
+        "accuracy": "50.6% ± 2.8%"
+      },
+      {
+        "id": "f12d32df-b834-4eb5-ba24-cf46cb199742",
+        "model": "Haiku 5.5",
+        "agent": "Claude Code",
+        "effort": "max",
+        "trials": 330,
+        "successes": 132,
+        "accuracy": "40.0% ± 3.7%"
+      },
+      {
+        "id": "5bd8ac99-7353-4210-bdc5-153029e660d5",
+        "model": "GPT-6 Luna",
+        "agent": "Codex",
+        "effort": "max",
+        "trials": 330,
+        "successes": 54,
+        "accuracy": "16.4% ± 2.7%"
+      }
+    ]
+  },
+  "frontierCodeAA20": {
+    "source": "https://artificialanalysis.ai/models/comparisons",
+    "percent": [
+      {
+        "model": "Fable 5.2",
+        "effort": "max",
+        "score": 48.8
+      },
+      {
+        "model": "GPT-6.2 Astra",
+        "effort": "max",
+        "score": 45.4
+      }
+    ]
+  },
+  "arenaVision": {
+    "source": "https://arena.ai/leaderboard/chat/vision",
+    "asOf": "2026-11-08",
+    "ranks": [
+      {
+        "model": "Opus 5.5",
+        "effort": "high",
+        "rank": 6
+      },
+      {
+        "model": "GPT-6.1 Sol",
+        "effort": "max",
+        "rank": 12
+      }
+    ]
+  }
+}

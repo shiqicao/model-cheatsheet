@@ -1,29 +1,182 @@
 [
   {
-    "provider": "Anthropic", "family": "Claude", "accent": "#ffac89",
+    "provider": "Anthropic",
+    "family": "Claude",
+    "accent": "#ffac89",
     "models": [
-      ["Fable 5.2", "Epic myth", "Complex reasoning and code", [5,5,3,4,2]],
-      ["Opus 5.5", "Symphony", "Demanding coding tasks", [5,5,3,4,3]],
-      ["Sonnet 5.5", "Poem", "Balanced everyday coding", [4,4,4,4,3]],
-      ["Haiku 5.5", "Quick verse", "Fast, lightweight requests", [2,3,5,2,5]]
-    ]
+      {
+        "name": "Fable 5.2",
+        "use": "Complex reasoning and code",
+        "scores": [
+          5,
+          5,
+          3,
+          4,
+          2
+        ],
+        "releaseDate": "2026-11-09"
+      },
+      {
+        "name": "Opus 5.5",
+        "use": "Demanding coding tasks",
+        "scores": [
+          5,
+          5,
+          3,
+          4,
+          3
+        ],
+        "releaseDate": "2026-09-22"
+      },
+      {
+        "name": "Sonnet 5.5",
+        "use": "Balanced everyday coding",
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          3
+        ],
+        "releaseDate": "2026-09-28"
+      },
+      {
+        "name": "Haiku 5.5",
+        "use": "Fast, lightweight requests",
+        "scores": [
+          2,
+          3,
+          5,
+          2,
+          5
+        ],
+        "releaseDate": "2026-10-07"
+      }
+    ],
+    "releaseSource": "https://www.anthropic.com/news/models"
   },
   {
-    "provider": "OpenAI", "family": "GPT", "accent": "#72dfd2",
+    "provider": "OpenAI",
+    "family": "GPT",
+    "accent": "#72dfd2",
     "models": [
-      ["GPT-6 Astra", "Stars / frontier", "Complex multimodal work", [5,5,4,5,2]],
-      ["GPT-6.1 Sol", "Sun / workhorse", "Reasoning at speed", [5,4,5,3,3]],
-      ["GPT-6.1 Terra", "Earth / practical", "Everyday multimodal tasks", [3,3,4,4,4]],
-      ["GPT-6 Luna", "Moon / light", "Quick, low-cost responses", [2,2,5,2,5]]
-    ]
+      {
+        "name": "GPT-6.2 Astra",
+        "use": "Complex professional work",
+        "scores": null,
+        "releaseDate": "2026-11-17"
+      },
+      {
+        "name": "GPT-6.2 Sol",
+        "use": "Everyday coding and agent tasks",
+        "scores": null,
+        "releaseDate": "2026-11-17"
+      },
+      {
+        "name": "GPT-6.1 Terra",
+        "use": "Everyday multimodal tasks",
+        "scores": [
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "releaseDate": "2026-10-26"
+      },
+      {
+        "name": "GPT-6 Luna",
+        "use": "Quick, low-cost responses",
+        "scores": [
+          2,
+          2,
+          5,
+          2,
+          5
+        ],
+        "releaseDate": "2026-09-22"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "use": "Complex multimodal work",
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          2
+        ],
+        "releaseDate": "2026-09-03"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "use": "Reasoning at speed",
+        "scores": [
+          5,
+          4,
+          5,
+          3,
+          3
+        ],
+        "releaseDate": "2026-09-29"
+      }
+    ],
+    "releaseSource": "https://developers.openai.com/api/docs/changelog"
   },
   {
-    "provider": "Google", "family": "Gemini", "accent": "#c1a8ff",
+    "provider": "Google",
+    "family": "Gemini",
+    "accent": "#c1a8ff",
     "models": [
-      ["Gemini 4 Carbon", "Heavy agent", "Demanding agent tasks", [5,5,4,5,2]],
-      ["Gemini 4 Argon", "Advanced", "Fast, multi-step reasoning", [4,4,4,3,3]],
-      ["Gemini 4 Hydrogen", "Everyday", "High-volume general use", [3,3,5,3,4]],
-      ["Gemini Flash Lite", "3.8 / 3.5", "Low-latency requests", [2,2,5,2,5]]
-    ]
+      {
+        "name": "Gemini 4 Carbon",
+        "use": "Demanding agent tasks",
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          2
+        ],
+        "releaseDate": "2026-11-10"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "use": "Fast, multi-step reasoning",
+        "scores": [
+          4,
+          4,
+          4,
+          3,
+          3
+        ],
+        "releaseDate": "2026-10-13"
+      },
+      {
+        "name": "Gemini 4 Hydrogen",
+        "use": "High-volume general use",
+        "scores": [
+          3,
+          3,
+          5,
+          3,
+          4
+        ],
+        "releaseDate": "2026-11-12"
+      },
+      {
+        "name": "Gemini 3.5 Flash-Lite",
+        "use": "Low-latency requests",
+        "scores": [
+          2,
+          2,
+          5,
+          2,
+          5
+        ],
+        "releaseDate": "2026-07-21"
+      }
+    ],
+    "releaseSource": "https://aistudio.google.com/docs/changelog"
   }
 ]
